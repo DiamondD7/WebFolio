@@ -111,7 +111,7 @@ body {
     }
 
     to {
-        max-width: 75%;
+        max-width: 93%;
     }
 }
 
@@ -156,4 +156,9 @@ body {
     50% {
         border-color: orange
     }
+}
+
+
+.btns-div{
+    margin-top:500px;
 }
