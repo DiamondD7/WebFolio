@@ -1,4 +1,6 @@
-
+*{
+    box-sizing:border-box;
+}
 html {
   font-size: 14px;
 }
@@ -34,7 +36,7 @@ body {
 .introduction-self {
     display: inline-block;
     margin-top: 90px;
-    margin-left: 30px;
+    margin-left: 150px;
     width: auto;
     overflow: hidden;
     color: #222;
@@ -86,10 +88,13 @@ body {
     }
 }
 
+/*.div-para{
+    width:200px;
+}*/
 
 .introduction-paragraph {
     display: block;
-    margin-left: 30px;
+    margin-left: 250px;
     width: auto;
     overflow: hidden;
     color: #222;
@@ -122,7 +127,7 @@ body {
 
 .introduction-last {
     display: block;
-    margin-left: 30px;
+    margin-left: 150px;
     width: auto;
     overflow: hidden;
     color: #222;

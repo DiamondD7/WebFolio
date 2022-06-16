@@ -16,11 +16,11 @@ setTimeout(() => {
 
 setTimeout(function () {
     para.style.display = 'inline-block';
-}, 4500);
+}, 5000);
 
 setTimeout(function () {
     last.style.display = 'inline-block';
-}, 6600);
+}, 7000);
 
 
 
