@@ -15,11 +15,11 @@ setTimeout(() => {
 }, 3000);
 
 setTimeout(function () {
-    para.style.display = 'block';
+    para.style.display = 'inline-block';
 }, 3500);
 
 setTimeout(function () {
-    last.style.display = 'block';
+    last.style.display = 'inline-block';
 }, 5500);
 
 
