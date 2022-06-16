@@ -20,7 +20,7 @@ body {
 
 /*-----------------------------------------------------CUSTOM CSS*/
 
-.introduction-section{
+/*.introduction-section{
     margin:0 auto;
     margin-top:80px;
     height:85vh;
@@ -34,7 +34,7 @@ body {
         ),
         url(/images/back.jpg);
     background-size:cover;
-}
+}*/
 
 .introduction-welcome {
     position:relative;
@@ -47,6 +47,40 @@ body {
 }
 
 .introduction-self {
+    display: inline-block;
+    width: auto;
+    overflow: hidden;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    animation: typing 5s steps(55), blink-caret 5s;
+    -webkit-animation-delay:3s;
+    animation-delay:3s;
+}
+
+@keyframes typing {
+    from {       
+        max-width: 0;
+    }
+
+    to {
+        max-width: 75%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange
+    }
+}
+
+
+/*.introduction-self {
     visibility: hidden;
     position: relative;
     font-size: 40px;
@@ -55,20 +89,19 @@ body {
     left: 60px;
     top: 130px;
     animation: self 0s ease-in 3s forwards;
-}
+}*/
 
-@keyframes self {
+/*@keyframes self {
     to {
-        visibility: visible;
+        visibility: hidden;
     }
 }
 
 @-webkit-keyframes self {
     to {
-        visibility: visible;
-        transition: all 0.9s;
+        visibility: hidden;
     }
-}
+}*/
 
 @keyframes welcome {
     from {
