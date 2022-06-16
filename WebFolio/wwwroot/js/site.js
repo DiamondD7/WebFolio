@@ -14,7 +14,7 @@ setTimeout(() => {
 
 setTimeout(function () {
     para.style.display = 'block';
-},7000);
+},6000);
 
 
 
