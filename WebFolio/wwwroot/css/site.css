@@ -59,13 +59,14 @@ body {
 
 @keyframes self {
     to {
-        visibility:visible;
+        visibility: visible;
     }
 }
 
 @-webkit-keyframes self {
     to {
         visibility: visible;
+        transition: all 0.9s;
     }
 }
 
