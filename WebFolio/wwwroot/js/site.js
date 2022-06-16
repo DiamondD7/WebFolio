@@ -5,16 +5,22 @@
 
 const sel = document.getElementById('self');
 const para = document.getElementById('para');
+const last = document.getElementById('last');
+last.style.display = 'none';
 sel.style.display = 'none';
 para.style.display = 'none';
 
-setTimeout(() => {
-    sel.style.display = 'inline-block';
-}, 3000);
-
 setTimeout(function () {
     para.style.display = 'block';
-},6000);
+}, 6000);
+
+setTimeout(() => {
+    sel.style.display = 'inline-block';
+}, 1000);
+
+setTimeout(function () {
+    last.style.display = 'block';
+}, 1000);
 
 
 
