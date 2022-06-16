@@ -13,7 +13,7 @@ setTimeout(() => {
 }, 3000);
 
 setTimeout(function () {
-    para.style.display = 'inline-block';
+    para.style.display = 'block';
 },8000);
 
 
