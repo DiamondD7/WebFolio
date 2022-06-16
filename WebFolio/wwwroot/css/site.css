@@ -22,7 +22,7 @@ body {
 
 .introduction-section{
     margin:0 auto;
-    margin-top:50px;
+    margin-top:80px;
     height:85vh;
     width:70vw;
     background-color:#fff;
@@ -36,33 +36,56 @@ body {
     background-size:cover;
 }
 
-.introduction-self {
+.introduction-welcome {
     position:relative;
-    left:-120px;
-    top:200px;
+    left:40px;
+    top:100px;
     color: #fff;
-    font-size: 45px;
+    font-size: 80px;
     font-family: 'Work Sans', sans-serif;
-    animation: text 3s 1;
+    animation: welcome 3s 1;
 }
 
-@keyframes text {
+.introduction-self {
+    visibility: hidden;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    left: 60px;
+    top: 130px;
+    animation: self 0s ease-in 3s forwards;
+}
+
+@keyframes self {
+    to {
+        visibility:visible;
+    }
+}
+
+@-webkit-keyframes self {
+    to {
+        visibility: visible;
+    }
+}
+
+@keyframes welcome {
     from {
         top: 0px;
     }
 
     to {
-        top: 200px;
+        top: 100px;
     }
 }
 
-@-webkit-keyframes text {
+@-webkit-keyframes welcome {
     from {
         top: 0px;
     }
 
     to {
-        top: 200px;
+        top: 100px;
     }
 }
 
