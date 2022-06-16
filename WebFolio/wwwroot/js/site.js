@@ -3,8 +3,6 @@
 
 // Write your JavaScript code.
 
-const intro = document.querySelector('.introduction-self');
-const welcome = document.querySelector('.introduction-welcome');
 const sel = document.getElementById('self');
 sel.style.display = 'none';
 
