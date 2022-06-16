@@ -1,7 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-    string intro = "<h2>My name is Aaron Sierra</h2>";
-    string welcomeGuest = "<p>Please, feel free to browse and make yourself at home</p>";
+    string intro = "<h2>";
+    string welcomeGuest = "My name is Aaron Sierra";
+    string last = "</h2>";
 }
 
 
@@ -9,5 +10,6 @@
     <h2 class="introduction-welcome">Welcome</h2>
 
     <h3 id="self" class="introduction-self">@intro</h3>
-    <h2 id="para" class="introduction-paragraph">@welcomeGuest &#128521;</h2>
+    <h3 id="para" class="introduction-paragraph">@welcomeGuest &#128521;</h3>
+    <h3 id="last" class="introduction-last">@last</h3>
 </div>

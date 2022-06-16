@@ -34,7 +34,7 @@ body {
 .introduction-self {
     display: inline-block;
     margin-top: 90px;
-    margin-left: 60px;
+    margin-left: 30px;
     width: auto;
     overflow: hidden;
     color: #222;
@@ -89,12 +89,11 @@ body {
 
 .introduction-paragraph {
     display: block;
-    margin-top: 90px;
-    margin-left: 60px;
+    margin-left: 30px;
     width: auto;
     overflow: hidden;
     color: #222;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Work Sans', sans-serif;
     border-right: .15em solid transparent;
     white-space: nowrap;
