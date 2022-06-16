@@ -4,8 +4,31 @@
 // Write your JavaScript code.
 
 const sel = document.getElementById('self');
+const para = document.getElementById('para');
 sel.style.display = 'none';
+para.style.display = 'none';
 
 setTimeout(() => {
     sel.style.display = 'inline-block';
 }, 3000);
+
+setTimeout(function () {
+    para.style.display = 'inline-block';
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
