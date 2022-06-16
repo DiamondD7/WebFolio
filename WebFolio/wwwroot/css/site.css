@@ -42,7 +42,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     border-right: .15em solid transparent;
     white-space: nowrap;
-    animation: typing 3s steps(55), blink-caret 3s;
+    animation: typing 2s steps(55), blink-caret 2s;
 }
 
 @keyframes typing {
@@ -51,7 +51,7 @@ body {
     }
 
     to {
-        max-width: 75%;
+        max-width: 30%;
     }
 }
 
@@ -106,7 +106,7 @@ body {
     }
 
     to {
-        max-width: 85%;
+        max-width: 75%;
     }
 }
 
@@ -130,7 +130,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     border-right: .15em solid transparent;
     white-space: nowrap;
-    animation: typingThird 3s steps(55), blink-caret 3s;
+    animation: typingThird 2s steps(55), blink-caret 2s;
 }
 
 @keyframes typingThird {
@@ -139,7 +139,7 @@ body {
     }
 
     to {
-        max-width: 60%;
+        max-width: 30%;
     }
 }
 
