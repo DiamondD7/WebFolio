@@ -40,7 +40,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     border-right: .15em solid transparent;
     white-space: nowrap;
-    animation: typing 5s steps(55), blink-caret 5s;
+    animation: typing 3s steps(55), blink-caret 3s;
 }
 
 @keyframes typing {
@@ -91,11 +91,11 @@ body {
     margin-left: 60px;
     width: auto;
     overflow: hidden;
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Work Sans', sans-serif;
     border-right: .15em solid transparent;
     white-space: nowrap;
-    animation: typingSecond 6s steps(55), blink-caret 6s;
+    animation: typingSecond 3s steps(55), blink-caret 3s;
 }
 
 @keyframes typingSecond {
@@ -104,7 +104,7 @@ body {
     }
 
     to {
-        max-width: 75%;
+        max-width: 85%;
     }
 }
 
