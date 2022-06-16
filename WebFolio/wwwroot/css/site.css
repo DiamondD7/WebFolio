@@ -20,26 +20,10 @@ body {
 
 /*-----------------------------------------------------CUSTOM CSS*/
 
-/*.introduction-section{
-    margin:0 auto;
-    margin-top:80px;
-    height:85vh;
-    width:70vw;
-    background-color:#fff;
-    border-radius:10px;
-
-    background-image: linear-gradient(
-            rgba(34, 34, 34, 0.6),
-            rgba(34,34,34,0.6)
-        ),
-        url(/images/back.jpg);
-    background-size:cover;
-}*/
-
 .introduction-welcome {
     position:relative;
     left:40px;
-    top:100px;
+    top:40px;
     color: #fff;
     font-size: 80px;
     font-family: 'Work Sans', sans-serif;
@@ -48,6 +32,8 @@ body {
 
 .introduction-self {
     display: inline-block;
+    margin-top:90px;
+    margin-left:60px;
     width: auto;
     overflow: hidden;
     font-size: 40px;
@@ -78,36 +64,13 @@ body {
 }
 
 
-/*.introduction-self {
-    visibility: hidden;
-    position: relative;
-    font-size: 40px;
-    font-family: 'Work Sans', sans-serif;
-    color: #fff;
-    left: 60px;
-    top: 130px;
-    animation: self 0s ease-in 3s forwards;
-}*/
-
-/*@keyframes self {
-    to {
-        visibility: hidden;
-    }
-}
-
-@-webkit-keyframes self {
-    to {
-        visibility: hidden;
-    }
-}*/
-
 @keyframes welcome {
     from {
         top: 0px;
     }
 
     to {
-        top: 100px;
+        top: 40px;
     }
 }
 
@@ -120,10 +83,3 @@ body {
         top: 100px;
     }
 }
-
-/*.img{
-    height:50vh;
-    border-radius:10px;
-    margin-left:30px;
-    margin-top:40px;
-}*/
