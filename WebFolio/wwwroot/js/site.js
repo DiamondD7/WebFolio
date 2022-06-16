@@ -3,4 +3,11 @@
 
 // Write your JavaScript code.
 
-const introRunning = document.querySelector('.introduction-self');
+const intro = document.querySelector('.introduction-self');
+const welcome = document.querySelector('.introduction-welcome');
+const sel = document.getElementById('self');
+sel.style.display = 'none';
+
+setTimeout(() => {
+    sel.style.display = 'inline-block';
+}, 3000);
