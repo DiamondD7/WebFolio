@@ -119,3 +119,36 @@ body {
         border-color: orange
     }
 }
+
+.introduction-last {
+    display: block;
+    margin-left: 30px;
+    width: auto;
+    overflow: hidden;
+    color: #222;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    border-right: .15em solid transparent;
+    white-space: nowrap;
+    animation: typingThird 3s steps(55), blink-caret 3s;
+}
+
+@keyframes typingThird {
+    from {
+        max-width: 0;
+    }
+
+    to {
+        max-width: 85%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange
+    }
+}
