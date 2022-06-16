@@ -17,3 +17,58 @@ body {
     margin-bottom: 60px;
     background-color: #DFC8A7;
 }
+
+/*-----------------------------------------------------CUSTOM CSS*/
+
+.introduction-section{
+    margin:0 auto;
+    margin-top:50px;
+    height:85vh;
+    width:70vw;
+    background-color:#fff;
+    border-radius:10px;
+
+    background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34,34,34,0.6)
+        ),
+        url(/images/back.jpg);
+    background-size:cover;
+}
+
+.introduction-self {
+    position:relative;
+    left:-120px;
+    top:200px;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Work Sans', sans-serif;
+    animation: text 3s 1;
+}
+
+@keyframes text {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+@-webkit-keyframes text {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+/*.img{
+    height:50vh;
+    border-radius:10px;
+    margin-left:30px;
+    margin-top:40px;
+}*/
