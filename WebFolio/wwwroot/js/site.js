@@ -14,7 +14,7 @@ setTimeout(() => {
 
 setTimeout(function () {
     para.style.display = 'inline-block';
-});
+},8000);
 
 
 
