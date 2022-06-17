@@ -27,7 +27,7 @@ setTimeout(function () {
 
 setTimeout(function () {
     last.style.display = 'inline-block';
-}, 7000);   
+}, 7500);   
 
 
 //BUTTON 1 HOVER EFFECT 
