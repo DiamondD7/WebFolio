@@ -179,12 +179,12 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-    .btn-about:hover {
-        background-color: #222;
-        border: none;
-        color: #3BA900;
-        padding: 11.7px 40px 10px 24px;
-    }
+.btn-about:hover {
+    background-color: #222;
+    border: none;
+    color: #3BA900;
+    padding: 11.7px 40px 10px 24px;
+}
 
 .btn-projects {
     padding: 10px 40px 10px 40px;
@@ -192,10 +192,24 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-projects:hover {
+    background-color: #222;
+    border: none;
+    color: #3BA900;
+    padding: 11.7px 40px 10px 24px;
+}
+
 .btn-contact {
     padding: 10px 40px 10px 40px;
     border-radius: 10px;
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-contact:hover {
+    background-color: #222;
+    border: none;
+    color: #3BA900;
+    padding: 11.7px 40px 10px 24px;
 }
 
 .div-btn-containers{
