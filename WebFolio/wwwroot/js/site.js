@@ -6,20 +6,21 @@
 const sel = document.getElementById('self');
 const para = document.getElementById('para');
 const last = document.getElementById('last');
-last.style.visibility = 'hidden';
-sel.style.visibility = 'hidden';
-para.style.visibility = 'hidden';
+
+last.style.display = 'none';
+sel.style.display = 'none';
+para.style.display = 'none';
 
 setTimeout(() => {
-    sel.style.visibility = 'visible';
+    sel.style.display = 'inline-block';
 }, 3000);
 
 setTimeout(function () {
-    para.style.visibility = 'visible';
+    para.style.display = 'inline-block';
 }, 5000);
 
 setTimeout(function () {
-    last.style.visibility = 'visible';
+    last.style.display = 'inline-block';
 }, 7000);
 
 
