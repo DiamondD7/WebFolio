@@ -38,12 +38,12 @@ body {
     display: inline-block;
     position: absolute;
     margin-top: 90px;
-    margin-left: 150px;
+    margin-left: 140px;
     width: auto;
     overflow: hidden;
     color: #3BA900;
-    font-size: 40px;
-    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
     border-right: .15em solid transparent;
     white-space: nowrap;
     animation: typing 2s steps(55), blink-caret 2s;
@@ -98,12 +98,12 @@ body {
     display: block;
     position: absolute;
     top: 270px;
-    margin-left: 250px;
+    margin-left: 230px;
     width: auto;
     overflow: hidden;
     color: #3BA900;
-    font-size: 40px;
-    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
     border-right: .15em solid transparent;
     white-space: nowrap;
     animation: typingSecond 3s steps(55), blink-caret 3s;
@@ -133,12 +133,12 @@ body {
     display: block;
     position: absolute;
     top: 350px;
-    margin-left: 150px;
+    margin-left: 140px;
     width: auto;
     overflow: hidden;
     color: #3BA900;
-    font-size: 40px;
-    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
     border-right: .15em solid transparent;
     white-space: nowrap;
     animation: typingThird 2s steps(55), blink-caret 2s;
@@ -183,7 +183,9 @@ body {
     background-color: #222;
     border: none;
     color: #3BA900;
-    padding: 11.7px 40px 10px 24px;
+    padding: 23px 40px 0 18px;
+    font-size:19px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .btn-projects {
@@ -196,7 +198,9 @@ body {
     background-color: #222;
     border: none;
     color: #3BA900;
-    padding: 11.7px 40px 10px 24px;
+    padding: 23px 40px 0 10px;
+    font-size:19px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .btn-contact {
@@ -209,7 +213,9 @@ body {
     background-color: #222;
     border: none;
     color: #3BA900;
-    padding: 11.7px 40px 10px 24px;
+    padding: 23px 40px 0 18px;
+    font-size:19px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .div-btn-containers{
