@@ -48,11 +48,11 @@ btnProjects.addEventListener('mouseover', projectHover, false);
 btnProjects.addEventListener('mouseout', projectStill, false);
 
 function projectHover() {
-    btnAbout.textContent = '<Projects/>';
+    btnProjects.textContent = '<Projects/>';
 }
 
 function projectStill() {
-    btnAbout.textContent = 'Projects';
+    btnProjects.textContent = 'Projects';
 }
 
 
