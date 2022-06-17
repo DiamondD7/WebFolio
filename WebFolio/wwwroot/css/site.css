@@ -18,7 +18,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-color: #DFC8A7;
+    background-color: #222;
 }
 
 /*-----------------------------------------------------CUSTOM CSS*/
@@ -27,7 +27,7 @@ body {
     position: relative;
     left: 40px;
     top: 40px;
-    color: #222;
+    color: #fff;
     font-size: 80px;
     font-family: 'Work Sans', sans-serif;
     animation: welcome 3s 1;
@@ -35,12 +35,12 @@ body {
 
 .introduction-self {
     display: inline-block;
-    position:absolute;
+    position: absolute;
     margin-top: 90px;
     margin-left: 150px;
     width: auto;
     overflow: hidden;
-    color: #222;
+    color: #3BA900;
     font-size: 40px;
     font-family: 'Work Sans', sans-serif;
     border-right: .15em solid transparent;
@@ -96,12 +96,12 @@ body {
 
 .introduction-paragraph {
     display: block;
-    position:absolute;
-    top:270px;
+    position: absolute;
+    top: 270px;
     margin-left: 250px;
     width: auto;
     overflow: hidden;
-    color: #222;
+    color: #3BA900;
     font-size: 40px;
     font-family: 'Work Sans', sans-serif;
     border-right: .15em solid transparent;
@@ -131,12 +131,12 @@ body {
 
 .introduction-last {
     display: block;
-    position:absolute;
-    top:350px;
+    position: absolute;
+    top: 350px;
     margin-left: 150px;
     width: auto;
     overflow: hidden;
-    color: #222;
+    color: #3BA900;
     font-size: 40px;
     font-family: 'Work Sans', sans-serif;
     border-right: .15em solid transparent;
@@ -172,4 +172,26 @@ body {
 
     font-size:30px;
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-about{
+    padding:10px 40px 10px 40px;
+    border-radius:10px;
+}
+
+    .btn-about:hover {
+        background-color: #222;
+        border:none;
+        color: #3BA900;
+        
+    }
+
+.btn-projects {
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+.btn-contact {
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
 }
