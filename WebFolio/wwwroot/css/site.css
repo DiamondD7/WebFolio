@@ -167,30 +167,35 @@ body {
 
 .btns-div {
     margin-top: 400px;
-    margin-left:125px;
+    margin-left: 125px;
     display: flex;
     justify-content: space-evenly;
+    font-size: 30px;
 }
 
 .btn-about {
     padding: 10px 40px 10px 40px;
     border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.btn-about:hover {
-    background-color: #222;
-    border: none;
-    color: #3BA900;
-}
+    .btn-about:hover {
+        background-color: #222;
+        border: none;
+        color: #3BA900;
+        padding: 11.7px 40px 10px 24px;
+    }
 
 .btn-projects {
     padding: 10px 40px 10px 40px;
     border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .btn-contact {
     padding: 10px 40px 10px 40px;
     border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .div-btn-containers{
@@ -198,10 +203,17 @@ body {
 }
 
 
-.bruh{
+
+
+
+
+
+
+/*test------------help me find the exact center*/
+/*.bruh{
     display:flex;
     color:#fff;
     justify-content:center;
     font-family:'Work Sans',sans-serif;
     font-size:30px
-}
+}*/
