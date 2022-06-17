@@ -8,6 +8,8 @@ const para = document.getElementById('para');
 const last = document.getElementById('last');
 
 let btnAbout = document.getElementById('btn1');
+let btnProjects = document.getElementById('btn2');
+let btnContact = document.getElementById('btn3');
 
 
 /*btnAbout.textContent = 'About';*/
@@ -27,6 +29,8 @@ setTimeout(function () {
     last.style.display = 'inline-block';
 }, 7000);   
 
+
+//BUTTON 1 HOVER EFFECT 
 btnAbout.addEventListener('mouseover', aboutHover, false);
 btnAbout.addEventListener('mouseout', aboutStill, false);
 
@@ -36,6 +40,19 @@ function aboutHover() {
 
 function aboutStill() {
     btnAbout.textContent = 'About';
+}
+
+
+//BUTTON 2 HOVER EFFECT
+btnProjects.addEventListener('mouseover', projectHover, false);
+btnProjects.addEventListener('mouseout', projectStill, false);
+
+function projectHover() {
+    btnAbout.textContent = '<Projects/>';
+}
+
+function projectStill() {
+    btnAbout.textContent = 'Projects';
 }
 
 
