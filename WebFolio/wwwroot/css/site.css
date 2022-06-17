@@ -46,7 +46,7 @@ body {
     font-family: 'Press Start 2P', cursive;
     border-right: .15em solid transparent;
     white-space: nowrap;
-    animation: typing 2s steps(55), blink-caret 2s;
+    animation: typing 2s steps(20), blink-caret 2s;
 }
 
 @keyframes typing {
@@ -141,7 +141,7 @@ body {
     font-family: 'Press Start 2P', cursive;
     border-right: .15em solid transparent;
     white-space: nowrap;
-    animation: typingThird 2s steps(55), blink-caret 2s;
+    animation: typingThird 2s steps(20), blink-caret 2s;
 }
 
 @keyframes typingThird {
