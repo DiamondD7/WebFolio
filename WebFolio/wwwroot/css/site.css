@@ -167,6 +167,7 @@ body {
 
 .btns-div {
     margin-top: 400px;
+    margin-left:140px;
     display: flex;
     justify-content: space-evenly;
     font-size: 30px;
@@ -192,4 +193,8 @@ body {
 .btn-contact {
     padding: 10px 40px 10px 40px;
     border-radius: 10px;
+}
+
+.div-btn-containers{
+    width:50%;
 }
