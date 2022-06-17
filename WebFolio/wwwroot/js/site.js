@@ -7,8 +7,10 @@ const sel = document.getElementById('self');
 const para = document.getElementById('para');
 const last = document.getElementById('last');
 
-const btnAbout = document.getElementById('btn1');
+let btnAbout = document.getElementById('btn1');
 
+
+/*btnAbout.textContent = 'About';*/
 last.style.display = 'none';
 sel.style.display = 'none';
 para.style.display = 'none';
@@ -25,9 +27,16 @@ setTimeout(function () {
     last.style.display = 'inline-block';
 }, 7000);   
 
-btnAbout = document.addEventListener('mouseover', function () {
+btnAbout.addEventListener('mouseover', aboutHover, false);
+btnAbout.addEventListener('mouseout', aboutStill, false);
+
+function aboutHover() {
     btnAbout.textContent = '<About/>';
-})
+}
+
+function aboutStill() {
+    btnAbout.textContent = 'About';
+}
 
 
 
