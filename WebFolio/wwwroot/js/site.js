@@ -57,6 +57,21 @@ function projectStill() {
 
 
 
+//BUTTON 3 HOVER EFFECT
+btnContact.addEventListener('mouseover', contactHover, false);
+btnContact.addEventListener('mouseout', contactStill, false);
+
+function contactHover() {
+    btnContact.textContent = '<Contact/>';
+}
+
+function contactStill() {
+    btnContact.textContent = 'Contact';
+}
+
+
+
+
 
 
 
