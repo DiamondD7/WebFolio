@@ -167,11 +167,9 @@ body {
 
 .btns-div {
     margin-top: 400px;
-    margin-left:140px;
+    margin-left:125px;
     display: flex;
     justify-content: space-evenly;
-    font-size: 30px;
-    font-family: 'Work Sans', sans-serif;
 }
 
 .btn-about {
@@ -197,4 +195,13 @@ body {
 
 .div-btn-containers{
     width:50%;
+}
+
+
+.bruh{
+    display:flex;
+    color:#fff;
+    justify-content:center;
+    font-family:'Work Sans',sans-serif;
+    font-size:30px
 }
