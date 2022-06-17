@@ -7,6 +7,8 @@ const sel = document.getElementById('self');
 const para = document.getElementById('para');
 const last = document.getElementById('last');
 
+const btnAbout = document.getElementById('btn1');
+
 last.style.display = 'none';
 sel.style.display = 'none';
 para.style.display = 'none';
@@ -21,9 +23,11 @@ setTimeout(function () {
 
 setTimeout(function () {
     last.style.display = 'inline-block';
-}, 7000);
+}, 7000);   
 
-
+btnAbout = document.addEventListener('mouseover', function () {
+    btnAbout.textContent = '<About/>';
+})
 
 
 
