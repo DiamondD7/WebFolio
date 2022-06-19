@@ -179,6 +179,8 @@ body {
     padding: 10px 40px 10px 40px;
     border-radius: 10px;
     font-family: 'Work Sans', sans-serif;
+    border:1px solid black;
+    background-color: white;
 }
 
 .btn-about:hover {
@@ -194,6 +196,8 @@ body {
     padding: 10px 40px 10px 40px;
     border-radius: 10px;
     font-family: 'Work Sans', sans-serif;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .btn-projects:hover {
@@ -209,6 +213,8 @@ body {
     padding: 10px 40px 10px 40px;
     border-radius: 10px;
     font-family: 'Work Sans', sans-serif;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .btn-contact:hover {
