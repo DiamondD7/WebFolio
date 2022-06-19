@@ -185,6 +185,7 @@ body {
 
 .btn-about:hover {
     background-color: #222;
+    text-decoration:none;
     border: none;
     color: #3BA900;
     padding: 23px 40px 0 18px;
@@ -202,6 +203,7 @@ body {
 
 .btn-projects:hover {
     background-color: #222;
+    text-decoration:none;
     border: none;
     color: #3BA900;
     padding: 23px 40px 0 10px;
@@ -219,6 +221,7 @@ body {
 
 .btn-contact:hover {
     background-color: #222;
+    text-decoration:none;
     border: none;
     color: #3BA900;
     padding: 23px 40px 0 18px;
