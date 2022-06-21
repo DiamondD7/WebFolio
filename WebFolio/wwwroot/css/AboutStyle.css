@@ -28,6 +28,7 @@
     height: 500px;
     background-image:url(/images/first.png);
     background-size: cover;
+
 }
 
 .img-second-poster:hover{
@@ -63,4 +64,13 @@
     border-color:transparent;
     background-color:white;
     padding:5px 35px 5px 35px;
+}
+
+.div-soft{
+    position:absolute;
+    background-color:white;
+    width:400px;
+    margin-top:50px;
+    margin-left:40px;
+    z-index:10;
 }
