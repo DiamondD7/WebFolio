@@ -47,9 +47,19 @@
 .btn-soft-skills{
     position:absolute;
     top:40%;
-    left:25%;
-    border-radius:20%;
+    left:23%;
+    border-radius:10px;
     border-color:transparent;
     background-color:white;
-    padding:5px 10px 5px 10px;
+    padding:5px 35px 5px 35px;
+}
+
+.btn-technical-skills{
+    position:absolute;
+    top:40%;
+    right:23%;
+    border-radius:10px;
+    border-color:transparent;
+    background-color:white;
+    padding:5px 35px 5px 35px;
 }
