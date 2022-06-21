@@ -68,9 +68,12 @@
 
 .div-soft{
     position:absolute;
+    top:50px;
+    left:70px;
     background-color:white;
     width:400px;
-    margin-top:50px;
+    height:350px;
+    margin-top:28px;
     margin-left:40px;
     z-index:10;
 }

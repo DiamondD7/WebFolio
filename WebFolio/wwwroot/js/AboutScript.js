@@ -5,6 +5,8 @@ const btnTech = document.getElementById('btn-tech');
 const imgLeft = document.querySelector('.img-poster');
 const imgRight = document.querySelector('.img-second-poster');
 
+const softPara = document.querySelector('.div-soft');
+
 function btnLeftShow() {
     btnSoft.classList.remove('hidden');
 }
@@ -21,6 +23,12 @@ function btnRightHide() {
 function btnLeftHide() {
     btnSoft.classList.add('hidden');
 }
+
+function softParaShow() {
+    softPara.classList.remove('hidden');
+}
+
+btnSoft.addEventListener('click', softParaShow);
 
 imgLeft.addEventListener('mouseover', btnLeftShow);
 imgLeft.addEventListener('mouseout', btnLeftHide)
