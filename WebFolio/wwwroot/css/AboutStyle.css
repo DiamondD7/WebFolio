@@ -9,7 +9,7 @@
     left: 0;
     width: 50%;
     height: 500px;
-    background-image: linear-gradient( rgba(34,34,34,0.6), rgba(34,34,34,0.6) ), url(/images/two.png);
+    background-image: url(/images/two.png);
     background-size: cover;
 }
 
@@ -19,6 +19,8 @@
     right:0;
     width: 50%;
     height: 500px;
-    background-image: linear-gradient( rgba(34,34,34,0.6), rgba(34,34,34,0.6) ), url(/images/first.png);
+    background-image:url(/images/first.png);
     background-size: cover;
 }
+
+/*background-image: linear-gradient( rgba(34,34,34,0.6), rgba(34,34,34,0.6) ), url(/images/first.png);*/
