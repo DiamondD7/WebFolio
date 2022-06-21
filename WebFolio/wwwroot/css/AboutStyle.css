@@ -3,6 +3,10 @@
     width:100%;
 }
 
+.hidden{
+    
+}
+
 .img-poster {
     position: absolute;
     top: 0;
@@ -38,3 +42,14 @@
 }
 
 /*background-image: linear-gradient( rgba(34,34,34,0.6), rgba(34,34,34,0.6) ), url(/images/first.png);*/
+
+
+.btn-soft-skills{
+    position:absolute;
+    top:40%;
+    left:25%;
+    border-radius:20%;
+    border-color:transparent;
+    background-color:white;
+    padding:5px 10px 5px 10px;
+}
